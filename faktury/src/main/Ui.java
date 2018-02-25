@@ -34,7 +34,8 @@ public class Ui {
 	}
 	private static void wypiszFakture(Faktura faktura)
 	{
-		WydrukFaktury.wyswietl(faktura);
+		DrukujFaktureStandardowa wydruk=new DrukujFaktureStandardowa();
+		wydruk.wyswietl(faktura);
 	}
 
 }
